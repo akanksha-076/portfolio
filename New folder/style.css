@@ -1,0 +1,168 @@
+/* ---------- Global Styles ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Header ---------- */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* ---------- Navigation Bar ---------- */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #023e8a;
+}
+
+/* ---------- Main Section ---------- */
+main {
+  text-align: center;
+  padding: 30px;
+}
+
+main h2 {
+  color: #0077b6;
+  margin-top: 40px;
+}
+
+main p {
+  width: 80%;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+/* ---------- Image ---------- */
+img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+}
+
+/* ---------- Projects List ---------- */
+ul {
+  list-style-type: disc;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ---------- Table (Technical Skills) ---------- */
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0077b6;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005f87;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+footer form {
+  display: inline-block;
+  text-align: left;
+}
+
+footer input,
+footer textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* ---------- Back to Top Button ---------- */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#backToTop:hover {
+  background-color: #005f87;
+}
+
+/* ---------- Visual Separators ---------- */
+hr {
+  border: 1px solid #0077b6;
+  width: 80%;
+  margin: 30px auto;
+}
